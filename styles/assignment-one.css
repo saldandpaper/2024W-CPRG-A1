@@ -1,8 +1,3 @@
 /* Mobile (max-width: 768px): 1 × 9 (full width cards) */
 /* Tablet (min-width: 768px): 2 × 4 (50% width cards, last card is full width) */
 /* Desktop (min-width: 1200px): 3 × 3 (33% width cards) */
-
-.card {
-    flex:auto;
-    
-}
