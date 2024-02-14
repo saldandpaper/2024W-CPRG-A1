@@ -1,0 +1,148 @@
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/index.html b/index.html[m
+[1mindex b51ca11..0c173c7 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -8,7 +8,8 @@[m
+   <link rel="stylesheet" type="text/css" href="/styles/fonts.css">[m
+   <link rel="stylesheet" type="text/css" href="/styles/global.css">[m
+   <link rel="stylesheet" type="text/css" href="styles/assignment-one-starter.css">[m
+[31m-  <link rel="stylesheet" type="text/css" href="./styles/assignment-one.css"[m
+[32m+[m[32m  <link rel="stylesheet" type="text/css" href="./styles/assignment-one.css">[m
+[32m+[m[32m  <link rel="stylesheet" type="text/css" href="./styles/lab-three.css">[m
+   <title>Responsive CSS Layout</title>[m
+ </head>[m
+ <body>[m
+[36m@@ -19,13 +20,27 @@[m
+   <section class="container">[m
+     <ul class="card-container">[m
+       <li class="card">[m
+[31m-        <img src="assets/puffin.jpg" alt="puffin">[m
+[32m+[m[32m        <iframe class="video" src="https://www.youtube.com/embed/DZAdVY9kKbc" title="A drive like no other – the Porsche 911 GT3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>[m
+         <div class="card-content">[m
+           <h3 class="subheader">[m
+[31m-            Animals[m
+[32m+[m[32m            Porsche[m
+           </h3>[m
+           <h4 class="header">[m
+[31m-            Puffin[m
+[32m+[m[32m            Porsche video.[m
+[32m+[m[32m          </h4>[m
+[32m+[m[32m          <p class="paragraph">[m
+[32m+[m[32m            A Porsche video.[m
+[32m+[m[32m          </p>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </li>[m
+[32m+[m[32m      <li class="card">[m
+[32m+[m[32m        <img src="assets/newPics/stuart-garage-DkLmiGmPx2w-unsplash.jpg" alt="porsche">[m
+[32m+[m[32m        <div class="card-content">[m
+[32m+[m[32m          <h3 class="subheader">[m
+[32m+[m[32m            Cars[m
+[32m+[m[32m          </h3>[m
+[32m+[m[32m          <h4 class="header">[m
+[32m+[m[32m            Photo by <a href="https://unsplash.com/@stuartgarage?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Stuart Garage</a> on <a href="https://unsplash.com/photos/blue-sedan-on-road-surrounded-by-trees-DkLmiGmPx2w?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>[m
+           </h4>[m
+           <p class="paragraph">[m
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit.[m
+[36m@@ -33,13 +48,13 @@[m
+         </div>[m
+       </li>[m
+       <li class="card">[m
+[31m-        <img src="assets/tiger.jpg" alt="tiger">[m
+[32m+[m[32m        <img src="assets/newPics/stuart-garage-A_ufRdIkxM8-unsplash.jpg" alt="porsche">[m
+         <div class="card-content">[m
+           <h3 class="subheader">[m
+[31m-            Animals[m
+[32m+[m[32m            Cars[m
+           </h3>[m
+           <h4 class="header">[m
+[31m-            Tiger[m
+[32m+[m[32m            Photo by <a href="https://unsplash.com/@stuartgarage?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Stuart Garage</a> on <a href="https://unsplash.com/photos/blue-porsche-911-parked-in-front-of-white-building-A_ufRdIkxM8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>[m
+           </h4>[m
+           <p class="paragraph">[m
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit.[m
+[36m@@ -47,13 +62,13 @@[m
+         </div>[m
+       </li>[m
+       <li class="card">[m
+[31m-        <img src="assets/lizard.jpg" alt="lizard">[m
+[32m+[m[32m        <img src="assets/newPics/kaung-sithu-3gVdM92HeMk-unsplash.jpg" alt="porsche">[m
+         <div class="card-content">[m
+           <h3 class="subheader">[m
+[31m-            Animals[m
+[32m+[m[32m            Cars[m
+           </h3>[m
+           <h4 class="header">[m
+[31m-            Lizard[m
+[32m+[m[32m            Photo by <a href="https://unsplash.com/@ksithu?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kaung Sithu</a> on <a href="https://unsplash.com/photos/white-and-red-porsche-911-on-road-during-daytime-3gVdM92HeMk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>[m
+           </h4>[m
+           <p class="paragraph">[m
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit.[m
+[36m@@ -61,13 +76,13 @@[m
+         </div>[m
+       </li>[m
+       <li class="card">[m
+[31m-        <img src="assets/frog.jpg" alt="frog">[m
+[32m+[m[32m        <img src="assets/newPics/ben-weber-KGl1sEN_17A-unsplash.jpg" alt="gt2r">[m
+         <div class="card-content">[m
+           <h3 class="subheader">[m
+[31m-            Animals[m
+[32m+[m[32m            Cars[m
+           </h3>[m
+           <h4 class="header">[m
+[31m-            Frog[m
+[32m+[m[32m            Photo by <a href="https://unsplash.com/@benwiththelens?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ben Weber</a> on <a href="https://unsplash.com/photos/white-porsche-911-on-road-KGl1sEN_17A?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>[m
+           </h4>[m
+           <p class="paragraph">[m
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit.[m
+[36m@@ -75,13 +90,13 @@[m
+         </div>[m
+       </li>[m
+       <li class="card">[m
+[31m-        <img src="assets/bear.jpg" alt="bear">[m
+[32m+[m[32m        <img src="assets/newPics/igor-costa-2Bjo1lzZlHc-unsplash.jpg" alt="gt2rs">[m
+         <div class="card-content">[m
+           <h3 class="subheader">[m
+[31m-            Animals[m
+[32m+[m[32m            Cars[m
+           </h3>[m
+           <h4 class="header">[m
+[31m-            Monkey[m
+[32m+[m[32m            Photo by <a href="https://unsplash.com/@igormph?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Igor Costa</a> on <a href="https://unsplash.com/photos/white-bmw-m-3-coupe-parked-in-building-2Bjo1lzZlHc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>[m
+           </h4>[m
+           <p class="paragraph">[m
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit.[m
+[36m@@ -89,13 +104,13 @@[m
+         </div>[m
+       </li>[m
+       <li class="card">[m
+[31m-        <img src="assets/crane.jpg" alt="crane">[m
+[32m+[m[32m        <img src="assets/newPics/james-edwards-nulrKVneneU-unsplash.jpg" alt="carrera s">[m
+         <div class="card-content">[m
+           <h3 class="subheader">[m
+[31m-            Animals[m
+[32m+[m[32m            Cars[m
+           </h3>[m
+           <h4 class="header">[m
+[31m-            Crane[m
+[32m+[m[32m            Photo by <a href="https://unsplash.com/@edwardsjamesolli?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">James Edwards</a> on <a href="https://unsplash.com/photos/black-audi-r-8-on-road-during-night-time-nulrKVneneU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>[m
+           </h4>[m
+           <p class="paragraph">[m
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit.[m
+[36m@@ -103,13 +118,13 @@[m
+         </div>[m
+       </li>[m
+       <li class="card">[m
+[31m-        <img src="assets/panda.jpg" alt="red panda">[m
+[32m+[m[32m        <img src="assets/newPics/jeff-tumale-1kyYn5F1YyA-unsplash.jpg" alt="porsche cayman">[m
+         <div class="card-content">[m
+           <h3 class="subheader">[m
+[31m-            Animals[m
+[32m+[m[32m            Cars[m
+           </h3>[m
+           <h4 class="header">[m
+[31m-            Red Panda[m
+[32m+[m[32m            Photo by <a href="https://unsplash.com/@jeff_tumale?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jeff Tumale</a> on <a href="https://unsplash.com/photos/silver-coupe-1kyYn5F1YyA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>[m
+           </h4>[m
+           <p class="paragraph">[m
+           

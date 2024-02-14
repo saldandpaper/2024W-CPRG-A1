@@ -1,0 +1,8 @@
+.card-container {
+    & .card {
+        & .video {
+            width: 100%;
+            height: 50%;
+        }
+    }
+}
